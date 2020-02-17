@@ -1,0 +1,5 @@
+p sprintf("%s", "foo")		#=> "foo"
+p sprintf("%s %s", "foo", "bar")	#=> "foo bar"
+p "%s"		% ["foo"]		#=> "foo"
+p "%s %s"	% ["foo", "bar"]	#=> "foo bar"
+p "%s"		% "foo"		#=> "foo"

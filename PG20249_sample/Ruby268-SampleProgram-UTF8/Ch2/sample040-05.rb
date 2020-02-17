@@ -1,0 +1,1 @@
+p "aBcDeFg-->".swapcase	#=> "AbCdEfG-->"

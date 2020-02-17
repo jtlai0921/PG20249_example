@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xml:lang="zh_tw"
+>
+
+ <channel rdf:about="http://i.loveruby.net/d/index.rdf">
+   <title>青木日記 有賣點</title>
+   <link>http://i.loveruby.net/d/</link>
+   <description>青木日記 有賣點</description>
+   <dc:date>2004-01-26T11:21</dc:date>
+   <items>
+     <rdf:Seq>
+       <rdf:li
+rdf:resource="http://i.loveruby.net/d/20040126.html#p01" />
+       <rdf:li
+rdf:resource="http://i.loveruby.net/d/20040126.html#c01" />
+       <rdf:li
+rdf:resource="http://i.loveruby.net/d/20040126.html#c02" />
+     </rdf:Seq>
+   </items>
+ </channel>
+ <item rdf:about="http://i.loveruby.net/d/20040126.html#p01">
+   <title>相乘效果</title>
+   <link>http://i.loveruby.net/d/20040126.html#p01</link>
+   <description>
+     突然想到。喜歡煎茶。也喜歡玄米茶。
+     也喜歡烘培茶。那，全部混在一起的話怎樣呢？
+   </description>
+ </item>
+ <item rdf:about="http://i.loveruby.net/d/20040126.html#c01">
+   <title>本日賣點-1（瑣碎）</title>
+   <link>http://i.loveruby.net/d/20040126.html#c01</link>
+   <description>混在一起了嘛？...</description>
+   <dc:date>2004-01-26T07:21</dc:date>
+ </item>
+ <item rdf:about="http://i.loveruby.net/d/20040126.html#c01">
+   <title>本日賣點-2（ogino.）</title>
+   <link>http://i.loveruby.net/d/20040126.html#c02</link>
+   <description>請找出最合適的混合比例。</description>
+   <dc:date>2004-01-26T11:21</dc:date>
+ </item>
+</rdf:RDF>

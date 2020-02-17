@@ -1,0 +1,13 @@
+require "erb"
+require "cgi"
+
+str = <<EOB
+<html>
+<head><title>ERB測試</title></head>
+<body>
+<h1>ERB測試</h1>
+<p>現在時間為<%= (Time.now.to_s) %>。</p>
+</body>
+</html>
+EOB
+print ERB.new(str).result

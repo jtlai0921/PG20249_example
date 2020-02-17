@@ -1,0 +1,5 @@
+p 3.to_s		#=> "3"
+p [1, 2].to_s	#=> "12"
+p [].to_s		#=> ""
+p nil.to_s		#=> ""
+p "string".to_s	#=> "string"

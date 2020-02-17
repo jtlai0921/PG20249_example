@@ -1,0 +1,6 @@
+filename = "/foo/bar/test.rb"
+p File.dirname(filename)		#=> "/foo/bar"
+p File.basename(filename)		#=> "test.rb"
+p File.basename(filename, ".rb")	#=> "test"
+p File.basename(filename, ",*")	#=> "test"
+p File.extname(filename)		#=> ".rb"

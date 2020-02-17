@@ -1,0 +1,5 @@
+obj.methods(true)
+obj.public_methods(true)
+obj.private_methods(true)
+obj.protected_methods(true)
+obj.singleton_methods(true)

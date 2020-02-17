@@ -1,0 +1,6 @@
+$/ = "\r\n"
+p "line\n".chomp("\n")	#=> "line\n"
+p "line\r\n".chomp("\n")	#=> "line"
+p "line\r".chomp("\n")	#=> "line\r"
+p "line \t\n".chomp("\n")	#=> "line \t\n"
+p "line".chomp("\n")	#=> "line"

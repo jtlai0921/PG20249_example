@@ -1,0 +1,13 @@
+p File.fnmatch("*.rb", "foo.rb")			#=> true
+p File.fnmatch("foo.*", "foo.rb")			#=> true
+p File.fnmatch("*foo*.rb", "foo.rb")			#=> true
+p File.fnmatch("ba[rz].rb", "bar.rb")			#=> true
+p File.fnmatch("ba[a-z].rb", "bat.rb")			#=> true
+p File.fnmatch("ba[a-z].rb", "ba-.rb")			#=> false
+p File.fnmatch("ba[-r-z].rb", "ba-.rb")			#=> true
+p File.fnmatch("ba?.rb", "baz.rb")			#=> true
+p File.fnmatch("ba?.rb", "ball.rb")			#=> false
+p File.fnmatch("foo?bar.rb", "foo-bar.rb")		#=> true
+p File.fnmatch("foo?bar.rb", "foo/bar.rb")		#=> true
+p File.fnmatch("?foo.br", ".foo.rb")			#=> false
+p File.fnmatch("*foo.rb", ".foo.rb")			#=> false

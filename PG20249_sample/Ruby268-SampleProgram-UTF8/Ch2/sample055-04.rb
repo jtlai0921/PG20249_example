@@ -1,0 +1,5 @@
+p "line\n".rstrip	#=> "line"
+p "line\r\n".rstrip	#=> "line"
+p "line\r".rstrip	#=> "line"
+p "line \t\n".rstrip	#=> "line"
+p "line".rstrip	#=> "line"
